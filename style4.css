@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("C:/Users/up215/OneDrive/Desktop/Portfolio/image/pic.jpeg") no-repeat;
+    background: url("C:/Users/up215/OneDrive/Desktop/Portfolio/image/pic.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -350,12 +350,12 @@ span {
 
 .about-img {
     position: relative;
-    width: 25rem;
-    height: 25rem;
+    width: 25vh;
+    height: 25vh;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .about-img .image {
@@ -363,7 +363,7 @@ span {
     top: 50px;
     bottom: 50%;
     border-radius: 50%;
-    background-color: red;
+    
     border: 0.2rem solid var(--main-color);
 }
 
